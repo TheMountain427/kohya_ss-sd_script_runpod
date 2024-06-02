@@ -3,11 +3,11 @@ variable "REGISTRY" {
 }
 
 variable "REGISTRY_USER" {
-    default = "ashleykza"
+    default = "forestsource"
 }
 
 variable "APP" {
-    default = "kohya"
+    default = "sd-script"
 }
 
 variable "RELEASE" {
