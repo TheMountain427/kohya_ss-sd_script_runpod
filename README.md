@@ -1,5 +1,5 @@
 <div align="center">
-
+original author: https://github.com/ashleykleynhans
 # Docker image for Kohya_ss
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/ashleykza/kohya?style=for-the-badge&logo=docker&label=Docker%20Pulls&link=https%3A%2F%2Fhub.docker.com%2Frepository%2Fdocker%2Fashleykza%2Fkohya%2Fgeneral)
