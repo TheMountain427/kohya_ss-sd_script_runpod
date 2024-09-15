@@ -45,7 +45,7 @@ ARG APP_MANAGER_VERSION
 WORKDIR /
 RUN git clone https://github.com/themountain427/app-manager.git /app-manager && \
     cd /app-manager && \
-    git checkout tags/${APP_MANAGER_VERSION} && \
+#    git checkout tags/${APP_MANAGER_VERSION} && \
     npm install
 COPY app-manager/config.json /app-manager/public/config.json
 COPY --chmod=755 app-manager/*.sh /app-manager/scripts/
