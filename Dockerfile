@@ -1,5 +1,5 @@
 ARG BASE_IMAGE
-FROM ghcr.io/themountain427/runpod-base-image:sha256-1430f315548d8f54fd0dda50351aee8918390fbc1e60dc9749d1243b311f5c8e AS base
+FROM ghcr.io/themountain427/runpod-base-image:main AS base
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ENV DEBIAN_FRONTEND=noninteractive \
