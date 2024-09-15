@@ -1,5 +1,5 @@
 ARG BASE_IMAGE
-FROM nvidia/cuda:12.1.0-cudnn8-devel-ubuntu22.04 as base
+FROM ghcr.io/themountain427/runpod-base-image:sha256-1430f315548d8f54fd0dda50351aee8918390fbc1e60dc9749d1243b311f5c8e.sig as base
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ENV DEBIAN_FRONTEND=noninteractive \
