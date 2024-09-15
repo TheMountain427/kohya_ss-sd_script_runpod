@@ -1,5 +1,5 @@
 ARG BASE_IMAGE
-FROM FROM nvidia/cuda::12.1.0-cudnn8-devel-ubuntu22.04 as base
+FROM nvidia/cuda::12.1.0-cudnn8-devel-ubuntu22.04 as base
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ENV DEBIAN_FRONTEND=noninteractive \
