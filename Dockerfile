@@ -43,7 +43,7 @@ COPY kohya_ss/requirements* ./
 # Install Application Manager
 ARG APP_MANAGER_VERSION
 WORKDIR /
-RUN git clone https://github.com/ashleykleynhans/app-manager.git /app-manager && \
+RUN git clone https://github.com/themountain427/app-manager.git /app-manager && \
     cd /app-manager && \
     git checkout tags/${APP_MANAGER_VERSION} && \
     npm install
