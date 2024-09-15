@@ -34,11 +34,12 @@ COPY kohya_ss/requirements* ./
 #     pip3 install torch==${TORCH_VERSION} torchvision torchaudio --index-url ${INDEX_URL} && \
 #     pip3 install xformers==${XFORMERS_VERSION} --index-url ${INDEX_URL} && \
 #     pip3 install bitsandbytes==0.43.0 \
-#         tensorboard==2.14.1 tensorflow==2.14.0 \
+#         tensorboard==2.15.2 tensorflow==2.15.0.post1 \
 #         wheel packaging tensorrt && \
 #     pip3 install tensorflow[and-cuda] && \
 #     pip3 install -r requirements.txt && \
 #     deactivate
+
 
 # Install Application Manager
 ARG APP_MANAGER_VERSION
