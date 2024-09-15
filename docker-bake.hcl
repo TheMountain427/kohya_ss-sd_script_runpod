@@ -11,11 +11,11 @@ variable "APP" {
 }
 
 variable "RELEASE" {
-    default = "24.1.4"
+    default = "24.1.6"
 }
 
 variable "CU_VERSION" {
-    default = "118"
+    default = "121"
 }
 
 variable "BASE_IMAGE_REPOSITORY" {
