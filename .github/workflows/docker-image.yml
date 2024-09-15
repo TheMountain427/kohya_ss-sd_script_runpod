@@ -13,9 +13,7 @@ env:
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -33,6 +31,6 @@ jobs:
           echo "Free space:"
           df -h
 
-    - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker buildx bake -f docker-bake.hcl --push
+      - uses: actions/checkout@v4
+      - name: Build the Docker image
+        run: docker buildx bake -f docker-bake.hcl --push
