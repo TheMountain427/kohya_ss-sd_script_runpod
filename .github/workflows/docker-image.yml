@@ -81,7 +81,7 @@ jobs:
       - name: Build and push
         uses: docker/bake-action@v5
         with:
-          source: "{{defaultContext}}:mysubdir"
+          source: "${{ github.server_url }}/${{ github.repository }}.git#${{ github.ref }}"
           push: true
           files: "docker-bake.hcl"
 
